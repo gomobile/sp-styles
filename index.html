@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+  <title>Your New Application</title>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;">
+  <style type="text/css">
+    /* Prevent copy paste for all elements except text fields */
+    *  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
+    input, textarea  { -webkit-user-select:text; }
+  </style>
+  <script src="intelxdk.js"></script>
+  <script type="text/javascript">
+    /* This code is used to run as soon as appMobi activates */
+    var onDeviceReady=function(){
+    	
+    	//hide splash screen
+    	AppMobi.device.hideSplashScreen();	
+    };
+    document.addEventListener("appMobi.device.ready",onDeviceReady,false);
+  </script>
+
+  <script type="application/javascript" src="js/jquery.min.js"></script>
+  <script type="application/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+  <!-- content goes here-->
+  <div class="uwrap">
+    <div class="upage">
+      <div class="upage-outer">
+        <div class="upage-content">
+
+          <div class="grid grid-pad urow uib_row_1 row-height-1" data-uib="layout/row">
+            <div class="col uib_col_1 col-0_12-12" data-uib="layout/col">
+              <div class="widget-container content-area vertical-col">
+
+                <div class="table-thing widget uib_w_1" data-uib="twitter%20bootstrap/input">
+                  <label class="narrow-control label-inline">Name</label>
+                  <input class="wide-control form-control" type="text" placeholder="Placeholder">
+                </div>
+                <div class="table-thing widget uib_w_2" data-uib="twitter%20bootstrap/input">
+                  <label class="narrow-control label-inline">Home Address</label>
+                  <input class="wide-control form-control" type="text" placeholder="Placeholder">
+                </div>
+                <div class="table-thing widget uib_w_3" data-uib="twitter%20bootstrap/select">
+                  <label class="narrow-control label-inline">Earthly Desires</label>
+                  <select class="wide-control form-control">
+                    <option>Horses</option>
+                    <option>Option2</option>
+                    <option>Option3</option>
+                  </select>
+                </div>
+                <div class="table-thing widget uib_w_4" data-uib="twitter%20bootstrap/text_area">
+                  <label class="narrow-control label-inline">Oven Status</label>
+                  <textarea rows="2" class="wide-control form-control" placeholder="Placeholder"></textarea>
+                </div>
+                <span class="uib_shim"></span>
+              </div>
+            </div>
+            <span class="uib_shim"></span>
+          </div>
+        </div>
+        <!-- /upage-content -->
+
+      </div>
+      <!-- /upage-outer -->
+
+    </div>
+    <!-- /upage -->
+
+  </div>
+  <!-- /uwrap -->
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-This project is the starting point for the App Designer Styles tutorial video. The App
+This project is the starting point for the App Designer Styles tutorial and video. The App
 Designer is included in the Intel(R) XDK.
 
 Intel(R) XDK

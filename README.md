@@ -1,9 +1,9 @@
 This project is the starting point for the App Designer Styles tutorial and video. The App
-Designer is included in the Intel(R) XDK.
+Designer is included in the Intel(R) XDK NEW.
 
-Intel(R) XDK
+Intel(R) XDK NEW
 -------------------------------------------
-Please visit http://software.intel.com/en-us/html5 to learn more about the Intel(R) XDK.
+Please visit http://software.intel.com/en-us/html5 to learn more about the Intel(R) XDK NEW.
 
 Application Files
 -----------------
